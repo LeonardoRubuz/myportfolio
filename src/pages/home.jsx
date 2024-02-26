@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Home() {
     return ( 
         <>
@@ -9,12 +11,24 @@ function Home() {
                     <h1>Leonardo M. Rubuz</h1>
                     <h2>Software Engineer</h2>
                 </div>
-                <button>Talk to me</button>
+                <button>
+                    <Link to="mailto:rubuzleonardo@gmail.com" target="_blank">
+                        Talk to me
+                    </Link>
+                </button>
                 <h2>Kinshasa, DRC</h2>
                 <hr />
-                <div className="socials">
-                    
-                </div>
+                {/* <div className="socials">
+                    <div className="social-icon">
+                        <img src="/" alt="" />
+                    </div>
+                    <div className="social-icon">
+                        <img src="/" alt="" />
+                    </div>
+                    <div className="social-icon">
+                        <img src="/" alt="" />
+                    </div>
+                </div> */}
             </div>
         </>
      );

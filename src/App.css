@@ -26,3 +26,14 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+.socials{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  border: #f9f9f9 1px solid;
+}
+
+.social-icon{
+  fill: invert(61%) sepia(42%) saturate(5478%) hue-rotate(185deg) brightness(99%) contrast(98%);
+}
