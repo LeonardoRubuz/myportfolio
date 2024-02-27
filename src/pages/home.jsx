@@ -12,7 +12,7 @@ function Home() {
                     <h2>Software Engineer</h2>
                 </div>
                 <button>
-                    <Link to="/get-in-touch" target="_blank">
+                    <Link to="/get-in-touch">
                         Talk to me
                     </Link>
                 </button>
