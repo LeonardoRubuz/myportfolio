@@ -5,6 +5,8 @@
   text-align: center;
 }
 
+/* Homepage */
+
 .identity{
   display: flex;
   flex-direction: column;
@@ -36,4 +38,41 @@
 
 .social-icon{
   fill: invert(61%) sepia(42%) saturate(5478%) hue-rotate(185deg) brightness(99%) contrast(98%);
+}
+
+/* Contact Page */
+
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 0 4rem;
+  gap: 4rem;
+  /* align-items: center; */
+  justify-content: center;
+  border: #f9f9f962 solid 1px;
+  height: 35rem;
+  width: 38rem;
+  border-radius: 8px;
+}
+
+input{
+  height: 1.9rem;
+  border-radius: 8px;
+  border: none;
+  padding-left: 1em;
+}
+textarea{
+  border-radius: 8px;
+  border: none;
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+.form-group{
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group input{
+  width: 45%;
 }
